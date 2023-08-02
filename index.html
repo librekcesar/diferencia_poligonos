@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
      hasta aca estan las librerias de cluster -->
-     <script type="text/javascript" src="poligono_zonas_v22_2_cgeom.js"></script>  
+     <script type="text/javascript" src="poligono_zonas_v22_3_cgeom.js"></script>  
 	 <script type="text/javascript" src="poligonos_zipcodesv21_prueba3.js"></script>
 	 <!--leaflet-search-master\src\leaflet-search.js-->
 	<!-- <script src="leaflet-search-master/src/leaflet-search.js"></script>
@@ -95,7 +95,7 @@ body { margin: 0; padding: 0; }
  };
 };
 
-var actual = new L.geoJson(poli_22, {
+var actual = new L.geoJson(poli_22_3, {
  style: stylePolygon
 }).addTo(map);
 
@@ -122,7 +122,7 @@ var anter = new L.geoJson(poli_21, {
 
 
 var overlayMaps = {
-    "poligonos zonas versión 22": actual,
+    "poligonos zonas versión 22_3": actual,
     "poligonos zonas versión 21": anter
 };
 
